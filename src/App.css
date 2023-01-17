@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+         
+}
+
+/* .imgMain{
+  background-image: url("./Assets/primaria.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center;
+  height:80vh ;
+  width: 100%;
+} */
+
+.bg-dark{
+  background-color: #1B4256!important;
+  
+}
+
+.navbar-dark .navbar-brand{
+  color: rgb(233, 229, 225)!important;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: rgb(233, 229, 225)!important;
+  display: inline-block;
+  position: relative; 
+  padding-bottom: 0.25rem;
+}  
+
+.navbar-dark .navbar-brand::before{
+  color: #F58220!important;
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 0;
+ height: 0.1rem;
+ background-color: rgb(233, 229, 225);
+}
+
+.navbar-dark .navbar-nav .nav-link::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.1rem;
+  background-color: rgb(233, 229, 225);
+}
+
+.navbar-dark .navbar-brand:hover::before{
+   background-color: #F58220;
+  width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link:hover::before{
+  background-color: #F58220;
+  width: 100%;
+}
+
+.dropdown-item{
+  color: #F58220;
+}
+
+
+
+
+.gradient {
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(334deg, #3e3d44cb, #ffffff, #25242de0);
+  background-size: 180% 180%;
+  -webkit-animation: gradient-animation 6s ease infinite;
+  animation: gradient-animation 6s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@-webkit-keyframes gradient-animation {
+  0% {
+            background-position: 0% 50%;
+  }
+  50% {
+            background-position: 100% 50%;
+  }
+  100% {
+            background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+            background-position: 0% 50%;
+  }
+  50% {
+            background-position: 100% 50%;
+  }
+  100% {
+            background-position: 0% 50%;
+  }
+}
+h1{
+  color: #1B4256;
+  font-size:450% ;
+  margin-bottom: 3rem;
+ }
+
+.logo__img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  position: relative;
+  left: 0px;
+  animation-name: caja;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes caja {
+  0% {
+    left: -3000px;
+    top: -3000px;
+  }
+ /*  50% {
+    left: -100px;
+  } */
+  100% {
+    left: 0px;
+    top:0px;
+  }
+}
