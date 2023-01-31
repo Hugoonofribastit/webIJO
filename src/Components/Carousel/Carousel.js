@@ -7,9 +7,9 @@ import './Carousel.css';
 
  const Carrousel = () => {
   return (
-  <>
   
-    <Container>
+  
+    <Container className='bcg'>
       <Row className="justify-content-center align-items-center mt-5">
         <Col><h1 className='text-center textCarr'>Popular Japan destinations</h1></Col>
       </Row>
@@ -64,7 +64,7 @@ import './Carousel.css';
         </Col>
       </Row>
     </Container>
-    </>
+    
   )
   
 }

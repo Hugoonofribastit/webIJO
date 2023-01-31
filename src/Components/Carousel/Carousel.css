@@ -48,3 +48,28 @@
     font-size: 2em;
     font-weight: bold;
   }
+
+  .textCarr{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin: 3rem;
+    font-size: 400%;
+    text-decoration: underline;
+    text-shadow: 0 0 3px transparent, 0 0 5px transparent;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.textCarr:hover{
+    text-shadow: 0 0 3px #F58220, 0 0 5px #F58220;
+}
+
+.bcg{
+  width: 100%;
+  background-color: #1B4256;
+}

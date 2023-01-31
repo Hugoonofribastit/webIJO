@@ -44,10 +44,11 @@
   }
 .ancho{
     width: 100%;
-    background-color: #1B4256;
+    /* background-color: #1B4256; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10rem;
 }
 
 
@@ -80,6 +81,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position:center;
+  /* background-position-y:20rem; */
   height:60vh ;
   width: 100%;
   display: flex;

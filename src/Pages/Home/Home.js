@@ -7,14 +7,16 @@ import Carrousel from '../../Components/Carousel/Carousel';
 
 
 
+
 const Home = () =>{
 return(
 <>
     <Main/>
     <SectionCard/>
     <Niveles/>
+    <SectionCard/>
     <Carrousel/>
-</>
+ </>
     )
 }
  export default Home;
