@@ -16,7 +16,9 @@ return(
     <SectionCard/>
     <Niveles/>
     {/* <SectionCard/> */}
-    <Carrousel/>
+    <SectionCard/>
+    <SectionCard/>
+   {/*  <Carrousel/> */}
  </>
     )
 }
