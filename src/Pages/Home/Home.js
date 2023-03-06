@@ -15,7 +15,7 @@ return(
     <Main/>
     <SectionCard/>
     <Niveles/>
-    <SectionCard/>
+    {/* <SectionCard/> */}
     <Carrousel/>
  </>
     )
