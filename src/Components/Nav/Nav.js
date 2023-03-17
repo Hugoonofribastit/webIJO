@@ -17,7 +17,9 @@ function CollapsibleExample() {
           <Nav className="me-auto">
           <NavDropdown title="Institucional" id="collasible-nav-dropdown">
               <NavDropdown.Item >
+              <LinkRouter to="/historia" className='link'>
                 Historia
+              </LinkRouter> 
                 </NavDropdown.Item>
               <NavDropdown.Item >
                 Proyecto Ed. Pastoral

@@ -70,8 +70,14 @@
   color: #F58220;
 }
 
+.link{
+  color: #F58220;
+  text-decoration: none;
+}
 
-
+.link:hover{
+  color: black;
+}
 
 .gradient {
   width: 100%;
@@ -138,4 +144,59 @@ h1{
     left: 0px;
     top:0px;
   }
+}
+.cont-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont{
+  width: 40vw;
+  min-height:100vh ;
+  text-align: justify
+}
+
+.title-hist{
+  margin-top: 5rem;
+}
+
+.image_hist{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height: 300px;
+}
+
+
+
+.piedepagina{
+  min-height: 30vh;
+  width: 100%;  
+  background-color: #1B4256 !important;
+  padding-left: 1.5rem;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+
+}
+
+.cont-foot{
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+  justify-content:left;
+  flex-wrap: wrap;
+}
+.font-foot{
+  font-size:xx-small;
+}
+.title-foot{
+  margin-right: 15rem;
+  font-size:xx-large;
+}
+
+.dual{
+  margin-right: 20rem;
 }
