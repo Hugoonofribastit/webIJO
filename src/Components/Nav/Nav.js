@@ -7,7 +7,7 @@ import {Link as LinkRouter} from "react-router-dom"
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" className='Barra'>
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" className='Barra' sticky="top">
       <Container>
       <LinkRouter to="/" className='link'>
          <Navbar.Brand>Inicio</Navbar.Brand>

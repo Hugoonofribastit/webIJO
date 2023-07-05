@@ -3,11 +3,12 @@ import Foot from "../../Components/foot/foot";
 const Historia = () => {
     return (  
         <>
+        
         <div className="cont-cont mb-5">
             <div className="cont">
                 <h1 className="title-hist">Historia</h1>
                 <div className="cont-cont">
-                <img className="image_hist" src="http://gianmastodev.online/wp-content/uploads/2020/12/fd32604b-816d-4083-8142-763b84ed6825.jpg" alt="img" />
+                <img className="image_hist" src={process.env.PUBLIC_URL+ `/imagenes/fukuoka.jpg`} alt="img" />
                 
                 </div>
 
@@ -30,7 +31,7 @@ const Historia = () => {
              </div>
              
         </div>
-        <Foot/>
+        
         </>
     );
 }

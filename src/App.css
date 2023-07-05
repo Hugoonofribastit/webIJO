@@ -7,6 +7,7 @@
          
 }
 
+
 /* .imgMain{
   background-image: url("./Assets/primaria.jpg");
   background-repeat: no-repeat;
@@ -18,7 +19,7 @@
 } */
 
 .bg-dark{
-  background-color: #1B4256!important;
+  background-color: #006CB5!important;
   
 }
 
@@ -81,7 +82,7 @@
 
 .gradient {
   width: 100%;
-  min-height: 80vh;
+  min-height: 55vh;
   background: linear-gradient(334deg, #3e3d44cb, #ffffff, #25242de0);
   background-size: 180% 180%;
   -webkit-animation: gradient-animation 6s ease infinite;
@@ -115,7 +116,7 @@
   }
 }
 h1{
-  color: #1B4256;
+  color: #006CB5;
   font-size:450% ;
   margin-bottom: 3rem;
  }
@@ -168,11 +169,10 @@ h1{
 }
 
 
-
 .piedepagina{
   min-height: 30vh;
   width: 100%;  
-  background-color: #1B4256 !important;
+  background-color: #006CB5 !important;
   padding-left: 1.5rem;
   padding-top: 2.5rem;
   display: flex;
@@ -190,7 +190,10 @@ h1{
   flex-wrap: wrap;
 }
 .font-foot{
-  font-size:xx-small;
+  font-size:medium;
+}
+.font-foot2{
+  font-size:x-large;
 }
 .title-foot{
   margin-right: 15rem;
@@ -199,4 +202,106 @@ h1{
 
 .dual{
   margin-right: 20rem;
+}
+
+/* sidebar -------------------------------*/
+
+.sticky-side{
+  position:sticky;
+  top: 0px;
+  background-color: #006CB5;
+  min-height: 30vh;
+  width: 15vw;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+
+.nav-link:hover{
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color:#F58220
+}
+
+
+/* sidebar -------------------------------*/
+
+.imgside{
+  width: 85vw;
+  height: 100%;
+  border-top: solid 10px #006CB5;
+  background-image: url("./Assets/mancha.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  
+  
+}
+
+ .image_side{
+  max-width: 100%;
+  object-fit: contain;
+  height: 25rem;
+  position:relative;
+   /* Posición inicial fuera del contenedor */
+   /* Ajusta la posición vertical según tus necesidades */
+  transform: translateX(100%); /* Centra horizontalmente */
+  animation: desplazamiento 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards; /* Aplica la animación curva */
+  
+}
+@keyframes desplazamiento {
+  0% {
+    transform: translateX(100%); /* Posición inicial fuera del contenedor */
+  }
+  100% {
+    transform: translateX(-50%); /* Posición final centrada en el contenedor */
+  }
+}
+
+@media (max-width: 400px) {
+  .logo__img{
+    height: 5rem;
+
+  }
+  
+  h3{
+    font-size: 200%;
+  }
+
+}
+@media (max-width: 1300px) {
+
+ 
+  .image_side{
+    height: 18rem;
+  }
+}
+
+@media (max-width: 950px) {
+
+  h1{
+    display: none;
+  }
+  .image_side{
+    height: 13rem;
+  }
+}
+
+@media (max-width: 840px) {
+
+  
+  .sticky-side{
+    min-width: 100%;
+  }
+
+  .imgside{
+    display: none;
+  }
+  
 }

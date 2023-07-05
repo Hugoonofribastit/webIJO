@@ -10,7 +10,7 @@ return(
     <div className='d-flex cont-foot'>
        <div className='dual mt-3'>
        <div className='mb-5'>
-            <p className='text-white font-foot'><b>Jardín</b></p>
+            <p className='text-white font-foot2'><b>Jardín</b></p>
             <p className='text-white font-foot'>Dir: Hernandarias 6767</p>
             <p className='text-white font-foot'>Tel: 0223-482-1178</p>
             <p className='text-white font-foot'>
@@ -18,7 +18,7 @@ return(
             </p>
         </div>
         <div>
-             <p className='text-white font-foot'><b>Jardín Sede Friuli</b></p>
+             <p className='text-white font-foot2'><b>Jardín Sede Friuli</b></p>
             <p className='text-white font-foot'>Dir: Friuli 2367</p>
             <p className='text-white font-foot'>Tel: 0223-482-8335</p>
             <p className='text-white font-foot'>
@@ -28,7 +28,7 @@ return(
        </div>
         <div className='dual mt-3'>
         <div className='mb-5'>
-            <p className='text-white font-foot'><b>Primaria</b></p>
+            <p className='text-white font-foot2'><b>Primaria</b></p>
             <p className='text-white font-foot'>Dir: Hernandarias 6767</p>
             <p className='text-white font-foot'>Tel: 0223-482-1489</p>
             <p className='text-white font-foot'>
@@ -36,7 +36,7 @@ return(
             </p>
         </div>
         <div>
-        <p className='text-white font-foot'><b>Secundaria</b></p>
+        <p className='text-white font-foot2'><b>Secundaria</b></p>
             <p className='text-white font-foot'>Dir: Dolores 836</p>
             <p className='text-white font-foot'>Tel: 0223-482-1178</p>
             <p className='text-white font-foot'>
@@ -45,7 +45,7 @@ return(
         </div>
         </div>
         <div className='dual mt-3'>
-        <p className='text-white font-foot'><b>Administración</b></p>
+        <p className='text-white font-foot2'><b>Administración</b></p>
             <p className='text-white font-foot'>Dir: Hernandarias 6767</p>
             <p className='text-white font-foot'>Tel: 0223-482-1178 / 482-1489</p>
             <p className='text-white font-foot'>Whatsapp: 223-5-524545</p>
