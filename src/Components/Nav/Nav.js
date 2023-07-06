@@ -26,8 +26,6 @@ function CollapsibleExample() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link  >Parroquia</Nav.Link>
-            <Nav.Link  >E.O.E.</Nav.Link>
-            <Nav.Link  >Egresados</Nav.Link>
             <NavDropdown title="Niveles" id="collasible-nav-dropdown">
               <NavDropdown.Item >Inicial</NavDropdown.Item>
               <NavDropdown.Item >
@@ -41,12 +39,6 @@ function CollapsibleExample() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link  >Ctro. Estudiantes</Nav.Link>
-            <Nav.Link >Biblioteca</Nav.Link>
-            <Nav.Link eventKey={2}>
-              U.P.F.
-            </Nav.Link>
-            <Nav.Link>Noticias</Nav.Link>
             <Nav.Link>Administración</Nav.Link>
             <Nav.Link>Contacto</Nav.Link>
           </Nav>

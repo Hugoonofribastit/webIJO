@@ -7,11 +7,7 @@ const Historia = () => {
         <div className="cont-cont mb-5">
             <div className="cont">
                 <h1 className="title-hist">Historia</h1>
-                <div className="cont-cont">
-                <img className="image_hist" src={process.env.PUBLIC_URL+ `/imagenes/fukuoka.jpg`} alt="img" />
-                
-                </div>
-
+               
                 <p>El Instituto Jesús Obrero es una institución que cuenta con los tres niveles de enseñanza: Inicial, Primario y Secundario. Fundada en el año 1959 pasaron por sus aulas cantidad innumerables de estudiantes </p>
                 <p>El espíritu de la Institución, su historia y sus actividades se pueden sentir y vivenciar desde el momento que se ingresa al edificio. Todo al servicio de los estudiantes, quienes son los protagonistas de la historia de esta institución. Por ellos transcurren las acciones que hicieron y hacen que esta establecimiento sea reconocido y considerado dentro del barrio que lo vio nacer, crecer y convertirse en lo que es hoy. </p>
                 <p>En el año 1959 comienza a funcional el Nivel Primario, en el año 1961 abre sus puertas el Jardín de Infantes y en el año 1962 comienza a funcionar el Nivel Secundario. </p>

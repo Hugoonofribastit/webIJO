@@ -35,7 +35,7 @@ return(
                 email: primariajesusobrero@gmail.com
             </p>
         </div>
-        <div>
+        <div className='width-foot'>
         <p className='text-white font-foot2'><b>Secundaria</b></p>
             <p className='text-white font-foot'>Dir: Dolores 836</p>
             <p className='text-white font-foot'>Tel: 0223-482-1178</p>
