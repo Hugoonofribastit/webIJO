@@ -1,16 +1,16 @@
-const datos =[
+const datosini =[
     {
       
         "id": 1,
-        "image":"tokyo.jpg",
-        "name": "Tokyo",
+        "image":"1.jpeg",
+        
         
     },
 
     {
       "id": 2,
-      "image":"hiroshima.jpg",
-      "name": "Hiroshima",
+      "image":"2.jpeg",
+      
       
    
      
@@ -18,85 +18,131 @@ const datos =[
 
     {
         "id": 3,
-        "image":"fukushima.jpg",
-        "name": "Fukushima",
+        "image":"3.jpeg",
+        
         
     },
 
     {
       
         "id": 4,
-        "image":"kioto.jpg",
-        "name": "Kioto",
-       
+        "image":"4.jpeg",
+        
     },
 
     {
       
         "id": 5,
-        "image":"kobe.jpg",
-        "name": "Kobe",
+        "image":"5.jpeg",
+        
        
     },
 
     {
     "id": 6,
-    "image":"nagano.jpg",
-        "name": "Nagano",
+    "image":"6.jpeg",
+       
         
     },
 
     {
       
         "id": 7,
-        "image":"nara.jpg",
-        "name": "Nara",
+        "image":"7.jpeg",
+        
         
     },
 
     {
       
         "id": 8,
-        "image":"okinawa.jpg",
-        "name": "Okinawa",
+        "image":"8.jpeg",
+        
         
     },
 
     {
       
         "id": 9,
-        "image":"sapporo.jpg",
-        "name": "Sapporo",
+        "image":"9.jpeg",
+        
         
     },
 
     {
       
         "id": 10,
-        "image":"osaka.jpg",
-        "name": "Osaka",
+        "image":"10.jpeg",
+        
         
     },
 
     {
       
         "id": 11,
-        "image":"obanazawa.jpg",
-        "name": "Obanazawa",
+        "image":"11.jpeg",
+      
         
     },
     
     {
       
         "id": 12,
-        "image":"nagoya.jpg",
-        "name": "Nagoya",
+        "image":"12.jpeg",
         
     },
+    {
+        "id": 13,
+        "image": "13.jpeg"
+      },
+      {
+        "id": 14,
+        "image": "14.jpeg"
+      },
+      {
+        "id": 15,
+        "image": "15.jpeg"
+      },
+      {
+        "id": 16,
+        "image": "16.jpeg"
+      },
+      {
+        "id": 17,
+        "image": "17.jpeg"
+      },
+      {
+        "id": 18,
+        "image": "18.jpeg"
+      },
+      {
+        "id": 19,
+        "image": "19.jpeg"
+      },
+      {
+        "id": 20,
+        "image": "20.jpeg"
+      },
+      {
+        "id": 21,
+        "image": "21.jpeg"
+      },
+      {
+        "id": 22,
+        "image": "22.jpeg"
+      },
+      {
+        "id": 23,
+        "image": "23.jpeg"
+      },
+      {
+        "id": 24,
+        "image": "24.jpeg"
+      }
     
 
     
   
   ]
 
-  export default datos;
+  export default datosini;

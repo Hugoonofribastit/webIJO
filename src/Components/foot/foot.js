@@ -5,7 +5,7 @@ import {Link as LinkRouter} from "react-router-dom"
 
 const Foot = () =>{
 return(
-<div className='piedepagina'>
+<div id="footer" className='piedepagina'>
     <h4 className='text-white title-foot'>Contacto</h4>
     <div className='d-flex cont-foot'>
        <div className='dual mt-3'>

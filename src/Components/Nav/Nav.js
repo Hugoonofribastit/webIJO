@@ -3,9 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link as LinkRouter} from "react-router-dom"
-
+/* import { useNavigate } from 'react-router-dom'; */
 
 function CollapsibleExample() {
+  /* const navigate = useNavigate(); */
+
+  const scrollToFooter = () => {
+    const footer = document.getElementById('footer');
+    footer.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" className='Barra' sticky="top">
       <Container>
@@ -17,15 +24,19 @@ function CollapsibleExample() {
           <Nav className="me-auto">
           <NavDropdown title="Institucional" id="collasible-nav-dropdown">
               <NavDropdown.Item >
-              <LinkRouter to="/historia" className='link'>
-                Historia
-              </LinkRouter> 
-                </NavDropdown.Item>
-              <NavDropdown.Item >
-                Proyecto Ed. Pastoral
+                <LinkRouter to="/historia" className='link'>
+                  Historia
+                </LinkRouter> 
+              </NavDropdown.Item>
+              <NavDropdown.Item > 
+                <LinkRouter to="/proyecto_ed_pastoral" className='link'>
+                  Proyecto Ed. Pastoral
+                </LinkRouter>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link  >Parroquia</Nav.Link>
+            <LinkRouter to="/parroquia" className='link2'>
+           Parroquia
+            </LinkRouter>
             <NavDropdown title="Niveles" id="collasible-nav-dropdown">
               <NavDropdown.Item >Inicial</NavDropdown.Item>
               <NavDropdown.Item >
@@ -39,8 +50,8 @@ function CollapsibleExample() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link>Administración</Nav.Link>
-            <Nav.Link>Contacto</Nav.Link>
+            
+            <Nav.Link  onClick={scrollToFooter}>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

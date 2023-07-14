@@ -53,7 +53,7 @@ p{
 }  
 
 .navbar-dark .navbar-brand::before{
-  color: #F58220!important;
+ color: #F58220!important;
  content: "";
  position: absolute;
  left: 0;
@@ -84,15 +84,18 @@ p{
 
 .dropdown-item{
   color: #F58220;
+  text-decoration: none;
 }
+
 
 .link{
   color: #F58220;
   text-decoration: none;
 }
 
-.link:hover{
-  color: black;
+.nav-link:hover{
+ 
+  text-decoration: none;
 }
 
 .gradient {
@@ -153,15 +156,29 @@ h1{
 }
 
 .cont{
-  width: 40vw;
+  width: 50vw;
   min-height:100vh ;
-  text-align: justify
+  text-align: justify;
+  display:flex;
+  flex-direction: column;
+  
 }
 
 .title-hist{
   margin-top: 5rem;
+  text-align:left;
+}
+.title-hist2{
+ color: #006CB5;
+ margin-top: 5rem;
+ margin-bottom: 3rem;
+ text-align:left;
 }
 
+.text-bold{
+  font-size:x-large;
+  margin-top: 2rem;
+}
 
 .piedepagina{
   min-height: 30vh;
@@ -216,11 +233,7 @@ h1{
   color: #ffffff;
 }
 
-.nav-link:hover{
-  color: #ffffff;
-  text-decoration: underline;
-  text-decoration-color:#F58220
-}
+
 
 .sticky-side{
   padding-top: 5rem;
@@ -293,7 +306,7 @@ h1{
 
 @media (max-width: 950px) {
 
-  h1{
+  .main-title{
     display: none;
   }
   .image_side{
@@ -313,3 +326,70 @@ h1{
   }
   
 }
+
+@media (max-width: 550px) {
+  h1{
+    font-size:300%;
+  }
+  .image_frente{
+    display: none;
+  }
+}
+
+.image_parroquia{
+  height: 30rem;
+  margin-bottom: 5em;
+}
+
+.image_parroquia2{
+  height: 28rem;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.underl2{
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+.link2{
+  color: rgb(233, 229, 225)!important;
+    display: inline-block;
+    position: relative;
+    margin-top: 0.25rem;
+    padding-top: 0.30rem;
+    text-decoration: none;
+}
+.link2:hover{
+ 
+ border-bottom:2px solid #F58220;
+}
+.underl:hover{
+  color: #ffffff;
+  text-decoration:underline;
+  text-decoration-color: #F58220;
+}
+.underl2:hover{
+  color: #ffffff;
+  text-decoration:underline;
+  text-decoration-color: #F58220;
+}
+
+.image_frente{
+  height: 14rem;
+}
+
+.image_frente1{
+  margin-right: 3rem;
+}
+
+.image_frente2{
+  height:20rem;
+  object-fit: contain;
+  align-self: start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+

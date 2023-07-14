@@ -1,4 +1,4 @@
-import Foot from "../../Components/foot/foot";
+
 
 const Historia = () => {
     return (  
