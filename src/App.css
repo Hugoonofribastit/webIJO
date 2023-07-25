@@ -139,6 +139,18 @@ h1{
   margin-bottom: 3rem;
  }
 
+ .title-eoe{
+  margin-top: 5rem;
+  color: #006CB5;
+  font-size:450% ;
+  }
+  
+  .title2-eoe{
+    color: #006CB5;
+  font-size:400% ;
+  margin-bottom: 3rem;
+  }
+
 .logo__img{
   display: flex;
   flex-direction: column;
@@ -151,6 +163,7 @@ h1{
 
 .cont-cont{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -160,8 +173,7 @@ h1{
   min-height:100vh ;
   text-align: justify;
   display:flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 .title-hist{
@@ -392,4 +404,70 @@ h1{
 }
 
 
+.gallery-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 10rem;
 
+}
+.gallery-title{
+  text-align:left;
+  color: #006CB5;
+  margin-bottom: 10rem;
+  font-size: 450%;
+  margin-left: 17.5rem;
+}
+
+/* Ajuste de la galería a tres columnas en pantallas más pequeñas */
+@media screen and (max-width: 900px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Ajuste de la galería a dos columnas en pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ajuste de la galería a una columna en pantallas más pequeñas */
+@media screen and (max-width: 400px) {
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.secundario{
+  margin-bottom: 10rem;
+}
+
+
+/*  --------------- CAROUSEL ----------------- */
+
+
+
+.imagecar {
+  position: relative;
+  width: 100%;
+}
+
+.image__imgcar {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.carr-cont{
+ 
+margin-top: 10rem;
+}
+
+.borderbottom{
+  border-bottom:10px solid #006CB5;
+}

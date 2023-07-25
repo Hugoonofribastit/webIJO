@@ -9,6 +9,10 @@ import Pastoral from "./Pages/Pastoral/Pastoral";
 import Parroquia from "./Pages/Parroquia/Parroquia";
 import './App.css';
 import ScrollToTop from "./scrollToTop";
+import EOE from "./Pages/EOE/eoe";
+import Inicial from "./Pages/inicial/inicial";
+import Primario from "./Pages/Primario/primario";
+import Secundario from "./Pages/secundario/secundario";
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
       <Route path="/proyecto_ed_pastoral" element={<Pastoral/>}/>
       <Route path="/upf" element={<UPF/>}/>
       <Route path="/parroquia" element={<Parroquia/>}/>
+      <Route path="/eoe" element={<EOE/>}/>
+      <Route path="/inicial" element={<Inicial/>}/>
+      <Route path="/primario" element={<Primario/>}/>
+      <Route path="/secundario" element={<Secundario/>}/>
       </Routes>
     </div>
     <Foot/>

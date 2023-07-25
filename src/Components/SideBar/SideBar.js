@@ -8,8 +8,8 @@ function StackedExample() {
     
     <Nav  className="flex-column sticky-side" >
          
-         <LinkRouter className="underl2">Biblioteca</LinkRouter>
-      <LinkRouter className="underl2">Centro de Estudiantes</LinkRouter>
+      <LinkRouter className="underl2">Biblioteca</LinkRouter>
+      <LinkRouter className="underl2" to="/eoe">Equipo de Orientación Escolar</LinkRouter>
       <LinkRouter className="underl2" to="/upf">UPF</LinkRouter> 
     </Nav>
     

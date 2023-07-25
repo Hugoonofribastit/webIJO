@@ -1,6 +1,4 @@
 import React from 'react';
-import logofoot from "../../Assets/logo.png"
-import {Link as LinkRouter} from "react-router-dom"
 
 
 const Foot = () =>{

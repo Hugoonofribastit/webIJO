@@ -38,11 +38,13 @@ function CollapsibleExample() {
            Parroquia
             </LinkRouter>
             <NavDropdown title="Niveles" id="collasible-nav-dropdown">
-              <NavDropdown.Item >Inicial</NavDropdown.Item>
+              <NavDropdown.Item ><LinkRouter to="/inicial" className='link'>Inicial</LinkRouter></NavDropdown.Item>
               <NavDropdown.Item >
+              <LinkRouter to="/primario" className='link'>
                 Primario
+              </LinkRouter>
               </NavDropdown.Item>
-              <NavDropdown.Item >Secundario</NavDropdown.Item>
+              <NavDropdown.Item ><LinkRouter to="/secundario" className='link'>Secundario</LinkRouter></NavDropdown.Item>
              {/*  <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

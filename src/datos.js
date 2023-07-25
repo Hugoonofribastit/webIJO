@@ -1,11 +1,5 @@
 const datosini =[
-    {
-      
-        "id": 1,
-        "image":"1.jpeg",
-        
-        
-    },
+   
 
     {
       "id": 2,
@@ -69,22 +63,7 @@ const datosini =[
         
     },
 
-    {
-      
-        "id": 10,
-        "image":"10.jpeg",
-        
-        
-    },
-
-    {
-      
-        "id": 11,
-        "image":"11.jpeg",
-      
-        
-    },
-    
+     
     {
       
         "id": 12,
@@ -127,10 +106,7 @@ const datosini =[
         "id": 21,
         "image": "21.jpeg"
       },
-      {
-        "id": 22,
-        "image": "22.jpeg"
-      },
+     
       {
         "id": 23,
         "image": "23.jpeg"
@@ -138,9 +114,40 @@ const datosini =[
       {
         "id": 24,
         "image": "24.jpeg"
-      }
+      },
+      {
+        "id": 25,
+        "image": "25.jpeg"
+      },
+      {
+        "id": 26,
+        "image": "26.jpeg"
+      },
+      {
+        "id": 27,
+        "image": "27.jpeg"
+      },
+      {
+        "id": 28,
+        "image": "28.jpeg"
+      },
     
-
+      {
+        "id": 29,
+        "image": "29.jpeg"
+      },
+      {
+        "id": 30,
+        "image": "30.jpeg"
+      },
+      {
+        "id": 31,
+        "image": "31.jpeg"
+      },
+      {
+        "id": 32,
+        "image": "32.jpeg"
+      }
     
   
   ]
