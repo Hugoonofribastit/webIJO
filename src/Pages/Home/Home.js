@@ -1,8 +1,8 @@
 import React from 'react'
 import Main from '../../Components/Main/Main'; 
 import StackedExample from '../../Components/SideBar/SideBar';
-import Car from '../../Components/carouselmain/carouselmain';
 import 'animate.css';
+import Carousel from '../../Components/Carousel/carousel';
 
 
 
@@ -23,7 +23,7 @@ return(
         </div>
     </div>
     </div>
-   <Car/>
+   <Carousel></Carousel>
  </>
     )
 }

@@ -101,6 +101,13 @@ p{
   text-decoration: none;
 }
 
+.carousel-container {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .gradient {
   width: 100%;
   min-height: 55vh;

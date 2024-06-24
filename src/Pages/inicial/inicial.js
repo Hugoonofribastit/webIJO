@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Gallery from '../../Components/imgGallery/gallery';
 
 
