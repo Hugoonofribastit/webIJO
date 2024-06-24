@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Gallery from '../../Components/imgGallery/gallery';
+import Gallery2 from '../../Components/imgGallery/gallery2';
 
 
 
@@ -37,7 +37,7 @@ const Primario = () => {
                 </ul>
                                                 
              </div>
-             <Gallery/>
+             <Gallery2/>
              
         </div>
         

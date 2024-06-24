@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Gallery from '../../Components/imgGallery/gallery';
+import Gallery3 from '../../Components/imgGallery/gallery3';
 
 
 
@@ -41,7 +41,7 @@ const Secundario = () => {
                 </ul>            
                                                 
              </div>
-             <Gallery/>
+             <Gallery3/>
              
         </div>
         

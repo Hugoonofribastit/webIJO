@@ -7,9 +7,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-          
-         
-}
+ }
 
 h1, h2{
   font-family: 'Unna', serif;
@@ -36,6 +34,11 @@ p{
 .bg-dark{
   background-color: #006CB5!important;
   
+}
+
+.di-flex{
+  display: flex;
+  padding: 0rem;
 }
 
 .navbar-dark .navbar-brand{
@@ -270,11 +273,17 @@ h1{
   background-position:center;
   height: 30rem;
   width: 100%;
-  display: flex;
-  justify-content:end;
+  display: flex;  
   align-items: center;
   
   
+}
+.main-title2{
+  align-self: left;
+  justify-self: start;
+  color:#006CB5;
+  font-size: 550%;
+  margin-left: 12rem;
 }
 
  .image_side{
@@ -293,7 +302,7 @@ h1{
     transform: translateX(100%); /* Posición inicial fuera del contenedor */
   }
   100% {
-    transform: translateX(-50%); /* Posición final centrada en el contenedor */
+    transform: translateX(50%); /* Posición final centrada en el contenedor */
   }
 }
 
@@ -321,6 +330,7 @@ h1{
   .main-title{
     display: none;
   }
+  
   .image_side{
     height: 13rem;
   }
@@ -336,7 +346,9 @@ h1{
   .imgside{
     display: none;
   }
-  
+  .main-title2{
+    display: none;
+  }
 }
 
 @media (max-width: 550px) {
@@ -415,11 +427,10 @@ h1{
 
 }
 .gallery-title{
-  text-align:left;
+  margin-top: 8rem;
+  margin-bottom: 3.5rem;
   color: #006CB5;
-  margin-bottom: 10rem;
   font-size: 450%;
-  margin-left: 17.5rem;
 }
 
 /* Ajuste de la galería a tres columnas en pantallas más pequeñas */

@@ -13,9 +13,10 @@ return(
 <div className='borderbottom'>
     <Main/>
     
-    <div className='d-flex'>
+    <div className='di-flex'>
         <StackedExample/>
         <div className='imgside d-flex'>
+            <h2 className='main-title2'>¡Vamos a estudiar!</h2>
            <img className="image_side" src={process.env.PUBLIC_URL+ `/imagenes/kids1.png`} alt="img" />
         </div>
     </div>
