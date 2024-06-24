@@ -302,7 +302,7 @@ h1{
     transform: translateX(100%); /* Posición inicial fuera del contenedor */
   }
   100% {
-    transform: translateX(50%); /* Posición final centrada en el contenedor */
+    transform: translateX(0%); /* Posición final centrada en el contenedor */
   }
 }
 
