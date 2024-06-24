@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/%7Brepositorio%7D/static/css/main.4baad0a4.css",
-    "main.js": "/%7Brepositorio%7D/static/js/main.96ba3bef.js",
-    "static/media/mancha.jpg": "/%7Brepositorio%7D/static/media/mancha.dc9fd6507a8e7c5e74df.jpg",
-    "index.html": "/%7Brepositorio%7D/index.html",
-    "main.4baad0a4.css.map": "/%7Brepositorio%7D/static/css/main.4baad0a4.css.map",
-    "main.96ba3bef.js.map": "/%7Brepositorio%7D/static/js/main.96ba3bef.js.map"
+    "main.css": "/webIJO/static/css/main.3648737c.css",
+    "main.js": "/webIJO/static/js/main.de0d2b06.js",
+    "static/media/mancha.jpg": "/webIJO/static/media/mancha.dc9fd6507a8e7c5e74df.jpg",
+    "index.html": "/webIJO/index.html",
+    "main.3648737c.css.map": "/webIJO/static/css/main.3648737c.css.map",
+    "main.de0d2b06.js.map": "/webIJO/static/js/main.de0d2b06.js.map"
   },
   "entrypoints": [
-    "static/css/main.4baad0a4.css",
-    "static/js/main.96ba3bef.js"
+    "static/css/main.3648737c.css",
+    "static/js/main.de0d2b06.js"
   ]
 }
