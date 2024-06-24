@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%7Brepositorio%7D/static/css/main.4baad0a4.css",
+    "main.js": "/%7Brepositorio%7D/static/js/main.96ba3bef.js",
+    "static/media/mancha.jpg": "/%7Brepositorio%7D/static/media/mancha.dc9fd6507a8e7c5e74df.jpg",
+    "index.html": "/%7Brepositorio%7D/index.html",
+    "main.4baad0a4.css.map": "/%7Brepositorio%7D/static/css/main.4baad0a4.css.map",
+    "main.96ba3bef.js.map": "/%7Brepositorio%7D/static/js/main.96ba3bef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4baad0a4.css",
+    "static/js/main.96ba3bef.js"
+  ]
+}
